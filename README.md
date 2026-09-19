@@ -23,3 +23,8 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | Day 14 | Pointers (Call by Reference) | [day14/pointers_swap.c](day14/pointers_swap.c) | Completed |
 | Day 15 | Structures (Student Details) | [day15/student_record.c](day15/student_record.c) | Completed |
 | Day 16 | File Handling (Read & Write) | [day16/file_io.c](day16/file_io.c) | Completed |
+| Day 17 | Armstrong Number Check | [day17/armstrong.c](day17/armstrong.c) | Completed |
+| Day 18 | GCD & LCM (Euclidean Algorithm) | [day18/gcd_lcm.c](day18/gcd_lcm.c) | Completed |
+| Day 19 | Star Patterns (Triangle & Pyramid) | [day19/star_patterns.c](day19/star_patterns.c) | Completed |
+| Day 20 | Binary Search on Sorted Array | [day20/binary_search.c](day20/binary_search.c) | Completed |
+| Day 21 | 2D Matrix Transpose | [day21/matrix_transpose.c](day21/matrix_transpose.c) | Completed |
