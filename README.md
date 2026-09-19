@@ -9,3 +9,4 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | :--- | :--- | :--- | :--- |
 | Day 01 | Hello World & Setup | [day01/hello.c](day01/hello.c) | Completed |
 | Day 02 | Variables & Data Types | [day02/variables.c](day02/variables.c) | Completed |
+| Day 03 | User Input with scanf | [day03/user_input.c](day03/user_input.c) | Completed |
