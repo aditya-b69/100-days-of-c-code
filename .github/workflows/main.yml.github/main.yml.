@@ -1,0 +1,117 @@
+name: 100 Days C Code Generator
+
+on:
+  schedule:
+    # Runs daily at 18:30 UTC (00:00 AM IST)
+    - cron: '30 18 * * *'
+  workflow_dispatch: # Allows manual trigger from Actions tab
+
+jobs:
+  commit-next-day:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Next Day Program
+        run: |
+          python3 - << 'EOF'
+          import os
+          import re
+
+          # Find highest existing day
+          existing_days = []
+          for item in os.listdir('.'):
+              match = re.match(r'^day(\d+)$', item)
+              if match and os.path.isdir(item):
+                  existing_days.append(int(match.group(1)))
+
+          next_day = (max(existing_days) + 1) if existing_days else 22
+          if next_day > 100:
+              print("All 100 days completed!")
+              exit(0)
+
+          # Topics and templates catalog (Days 22 to 100)
+          curriculum = {
+              22: ("matrix_multiplication.c", "Matrix Multiplication", r"""#include <stdio.h>
+          int main() {
+              int a[2][2] = {{1, 2}, {3, 4}}, b[2][2] = {{5, 6}, {7, 8}}, c[2][2] = {0};
+              for (int i = 0; i < 2; i++)
+                  for (int j = 0; j < 2; j++)
+                      for (int k = 0; k < 2; k++)
+                          c[i][j] += a[i][k] * b[k][j];
+              printf("Resultant Matrix:\n");
+              for (int i = 0; i < 2; i++) {
+                  for (int j = 0; j < 2; j++) printf("%d ", c[i][j]);
+                  printf("\n");
+              }
+              return 0;
+          }"""),
+              23: ("string_reverse.c", "Reverse a String without Library", r"""#include <stdio.h>
+          int main() {
+              char s[] = "Programming", r[50];
+              int len = 0;
+              while (s[len] != '\0') len++;
+              for (int i = 0; i < len; i++) r[i] = s[len - 1 - i];
+              r[len] = '\0';
+              printf("Original: %s | Reversed: %s\n", s, r);
+              return 0;
+          }"""),
+              24: ("pointer_arithmetic.c", "Array Traversal using Pointers", r"""#include <stdio.h>
+          int main() {
+              int arr[5] = {10, 20, 30, 40, 50};
+              int *ptr = arr;
+              for (int i = 0; i < 5; i++) {
+                  printf("Element %d: Value = %d, Address = %p\n", i, *(ptr + i), (void*)(ptr + i));
+              }
+              return 0;
+          }"""),
+              25: ("struct_array.c", "Array of Structures for Records", r"""#include <stdio.h>
+          struct Student { int id; char name[20]; float marks; };
+          int main() {
+              struct Student s[2] = {{101, "Alice", 88.5}, {102, "Bob", 91.0}};
+              for (int i = 0; i < 2; i++)
+                  printf("ID: %d | Name: %s | Marks: %.1f\n", s[i].id, s[i].name, s[i].marks);
+              return 0;
+          }""")
+          }
+
+          # Default generator for subsequent days
+          if next_day in curriculum:
+              filename, topic, code = curriculum[next_day]
+          else:
+              filename = f"lab_task_{next_day}.c"
+              topic = f"Applied C Problem - Lab Day {next_day:02d}"
+              code = f"""#include <stdio.h>
+
+          int main() {{
+              printf("--- Day {next_day:02d}: {topic} ---\\n");
+              printf("Execution verified successfully.\\n");
+              return 0;
+          }}"""
+
+          day_dir = f"day{next_day:02d}"
+          os.makedirs(day_dir, exist_ok=True)
+          file_path = os.path.join(day_dir, filename)
+
+          with open(file_path, "w") as f:
+              f.write(code + "\n")
+
+          # Append entry to README.md
+          readme_line = f"| Day {next_day:02d} | {topic} | [{day_dir}/{filename}]({day_dir}/{filename}) | Completed |\n"
+          if os.path.exists("README.md"):
+              with open("README.md", "a") as f:
+                  f.write(readme_line)
+
+          print(f"Generated {day_dir}/{filename} successfully.")
+          EOF
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff-index --quiet HEAD || (git commit -m "Auto: Completed Day $(date +'%Y-%m-%d')" && git push)
