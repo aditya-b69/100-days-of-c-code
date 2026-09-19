@@ -28,3 +28,4 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | Day 19 | Star Patterns (Triangle & Pyramid) | [day19/star_patterns.c](day19/star_patterns.c) | Completed |
 | Day 20 | Binary Search on Sorted Array | [day20/binary_search.c](day20/binary_search.c) | Completed |
 | Day 21 | 2D Matrix Transpose | [day21/matrix_transpose.c](day21/matrix_transpose.c) | Completed |
+| Day 22 | Matrix Multiplication | [day22/matrix_multiplication.c](day22/matrix_multiplication.c) | Completed |
