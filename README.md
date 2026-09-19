@@ -13,3 +13,13 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | Day 04 | Conditional Statements (if-else) | [day04/conditionals.c](day04/conditionals.c) | Completed |
 | Day 05 | Switch Case Statement | [day05/calculator.c](day05/calculator.c) | Completed |
 | Day 06 | Loops: for Loop Basics | [day06/for_loop.c](day06/for_loop.c) | Completed |
+| Day 07 | Loops: while and do-while | [day07/while_loops.c](day07/while_loops.c) | Completed |
+| Day 08 | Functions: Declaration & Definition | [day08/functions.c](day08/functions.c) | Completed |
+| Day 09 | Recursion (Factorial & Fibonacci) | [day09/recursion.c](day09/recursion.c) | Completed |
+| Day 10 | 1D Arrays (Min, Max, Average) | [day10/array_basics.c](day10/array_basics.c) | Completed |
+| Day 11 | Bubble Sort Algorithm | [day11/bubble_sort.c](day11/bubble_sort.c) | Completed |
+| Day 12 | 2D Arrays (Matrix Addition) | [day12/matrix_addition.c](day12/matrix_addition.c) | Completed |
+| Day 13 | Strings & Palindrome Check | [day13/string_palindrome.c](day13/string_palindrome.c) | Completed |
+| Day 14 | Pointers (Call by Reference) | [day14/pointers_swap.c](day14/pointers_swap.c) | Completed |
+| Day 15 | Structures (Student Details) | [day15/student_record.c](day15/student_record.c) | Completed |
+| Day 16 | File Handling (Read & Write) | [day16/file_io.c](day16/file_io.c) | Completed |
