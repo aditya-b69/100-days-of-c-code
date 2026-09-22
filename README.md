@@ -32,3 +32,4 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | Day 23 | Reverse a String without Library Function | [day23/string_reverse.c](day23/string_reverse.c) | Completed |
 | Day 24 | Array Traversal Using Pointers | [day24/pointer_arithmetic.c](day24/pointer_arithmetic.c) | Completed |
 | Day 25 | Array of Structures for Student Records | [day25/struct_array.c](day25/struct_array.c) | Completed |
+| Day 26 | Applied C Problem - Lab Day 26 | [day26/lab_task_26.c](day26/lab_task_26.c) | Completed |
