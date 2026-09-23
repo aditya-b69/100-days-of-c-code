@@ -33,3 +33,5 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | Day 24 | Array Traversal Using Pointers | [day24/pointer_arithmetic.c](day24/pointer_arithmetic.c) | Completed |
 | Day 25 | Array of Structures for Student Records | [day25/struct_array.c](day25/struct_array.c) | Completed |
 | Day 26 | Applied C Problem - Lab Day 26 | [day26/lab_task_26.c](day26/lab_task_26.c) | Completed |
+|Day 27 | 
+Matrix Multiplication (2D Arrays) | [day27/matrix_multiplication.c](day27/matrix_multiplication.c) | Completed |
