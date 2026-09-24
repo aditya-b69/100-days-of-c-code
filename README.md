@@ -42,3 +42,8 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | Day 33 | Decimal to Binary & Octal Converter | [day33/base_converter.c](day33/base_converter.c) | Completed |
 | Day 34 | Symmetric Matrix Validation | [day34/symmetric_matrix.c](day34/symmetric_matrix.c) | Completed |
 | Day 35 | Pointer to Structure (Arrow Operator) | [day35/pointer_to_struct.c](day35/pointer_to_struct.c) | Completed |
+| Day 36 | Enumerations (`enum`) and Switch Cases | [day36/enum_days.c](day36/enum_days.c) | Completed |
+| Day 37 | Unions vs Structures Memory Layout | [day37/union_memory.c](day37/union_memory.c) | Completed |
+| Day 38 | Preprocessor Macros and Constants | [day38/macros_demo.c](day38/macros_demo.c) | Completed |
+| Day 39 | Dynamic Array Resizing with realloc | [day39/dynamic_realloc.c](day39/dynamic_realloc.c) | Completed |
+| Day 40 | Alphabetical Sorting of String Array | [day40/sort_strings.c](day40/sort_strings.c) | Completed |
