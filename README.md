@@ -34,3 +34,11 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | Day 25 | Array of Structures for Student Records | [day25/struct_array.c](day25/struct_array.c) | Completed |
 | Day 26 | Applied C Problem - Lab Day 26 | [day26/lab_task_26.c](day26/lab_task_26.c) | Completed |
 |Day 27 | Matrix Multiplication (2D Arrays) | [day27/matrix_multiplication.c](day27/matrix_multiplication.c) | Completed |
+| Day 28 | Dynamic Memory Allocation (malloc & free) | [day28/dynamic_memory.c](day28/dynamic_memory.c) | Completed |
+| Day 29 | String Copy & Concatenate without Library | [day29/string_operations.c](day29/string_operations.c) | Completed |
+| Day 30 | Count Vowels, Consonants, Digits & Spaces | [day30/char_count.c](day30/char_count.c) | Completed |
+| Day 31 | 2x2 Matrix Determinant and Trace | [day31/matrix_determinant.c](day31/matrix_determinant.c) | Completed |
+| Day 32 | Insertion Sort Algorithm | [day32/insertion_sort.c](day32/insertion_sort.c) | Completed |
+| Day 33 | Decimal to Binary & Octal Converter | [day33/base_converter.c](day33/base_converter.c) | Completed |
+| Day 34 | Symmetric Matrix Validation | [day34/symmetric_matrix.c](day34/symmetric_matrix.c) | Completed |
+| Day 35 | Pointer to Structure (Arrow Operator) | [day35/pointer_to_struct.c](day35/pointer_to_struct.c) | Completed |
