@@ -47,3 +47,4 @@ Welcome to my 100 Days of Code challenge tracker for C programming.
 | Day 38 | Preprocessor Macros and Constants | [day38/macros_demo.c](day38/macros_demo.c) | Completed |
 | Day 39 | Dynamic Array Resizing with realloc | [day39/dynamic_realloc.c](day39/dynamic_realloc.c) | Completed |
 | Day 40 | Alphabetical Sorting of String Array | [day40/sort_strings.c](day40/sort_strings.c) | Completed |
+| Day 41 | Bitwise Operators and Bit Manipulation | [day41/bitwise_operators.c](day41/bitwise_operators.c) | Completed |
