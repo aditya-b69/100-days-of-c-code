@@ -54,3 +54,5 @@ Track my daily problem-solving progress for the 100 Days of Code challenge.
 | Day 46 | Q91: Remove All Vowels from String<br>Q92: First Repeating Lowercase Character | [day46/q91_remove_vowels.c](day46/q91_remove_vowels.c)<br>[day46/q92_first_repeating_char.c](day46/q92_first_repeating_char.c) | Completed |
 | Day 47 | Q93: Anagram Strings Check<br>Q94: Longest Word in a Sentence | [day47/q93_anagram_check.c](day47/q93_anagram_check.c)<br>[day47/q94_longest_word.c](day47/q94_longest_word.c) | Completed |
 | Day 48 | Q95: String Rotation Check<br>Q96: Reverse Words in Sentence | [day48/q95_string_rotation.c](day48/q95_string_rotation.c)<br>[day48/q96_reverse_each_word.c](day48/q96_reverse_each_word.c) | Completed |
+| Day 49 | Q97: Initials of Name<br>Q98: Initials with Full Surname | [day49/q97_name_initials.c](day49/q97_name_initials.c)<br>[day49/q98_initials_surname.c](day49/q98_initials_surname.c) | Completed |
+| Day 50 | Q99: Date Format Conversion (dd-MMM-yyyy)<br>Q100: Print All Substrings | [day50/q99_date_format.c](day50/q99_date_format.c)<br>[day50/q100_all_substrings.c](day50/q100_all_substrings.c) | Completed |
