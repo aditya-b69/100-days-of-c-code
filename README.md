@@ -20,3 +20,9 @@ Track my daily problem-solving progress for the 100 Days of Code challenge.
 | Day 12 | Q23: Library Fine Slab Calculation<br>Q24: Electricity Bill Slabs | [day12/q23_library_fine.c](day12/q23_library_fine.c)<br>[day12/q24_electricity_bill.c](day12/q24_electricity_bill.c) | Completed |
 | Day 13 | Q25: Simple Calculator using switch-case<br>Q26: Print Numbers 1 to n | [day13/q25_calculator.c](day13/q25_calculator.c)<br>[day13/q26_print_1_to_n.c](day13/q26_print_1_to_n.c) | Completed |
 | Day 14 | Q27: Sum of First n Odd Numbers<br>Q28: Product of Even Numbers 1 to n | [day14/q27_sum_odd_numbers.c](day14/q27_sum_odd_numbers.c)<br>[day14/q28_product_even_numbers.c](day14/q28_product_even_numbers.c) | Completed |
+| Day 15 | Q29: Factorial of a Number<br>Q30: Reverse a Given Number | [day15/q29_factorial.c](day15/q29_factorial.c)<br>[day15/q30_reverse_number.c](day15/q30_reverse_number.c) | Completed |
+| Day 16 | Q31: Decimal to Binary Representation<br>Q32: Palindrome Number Check | [day16/q31_decimal_to_binary.c](day16/q31_decimal_to_binary.c)<br>[day16/q32_palindrome_number.c](day16/q32_palindrome_number.c) | Completed |
+| Day 17 | Q33: Armstrong Number Check<br>Q34: Prime Number Check | [day17/q33_armstrong_number.c](day17/q33_armstrong_number.c)<br>[day17/q34_prime_check.c](day17/q34_prime_check.c) | Completed |
+| Day 18 | Q35: Print All Factors of a Number<br>Q36: HCF (GCD) of Two Numbers | [day18/q35_factors.c](day18/q35_factors.c)<br>[day18/q36_hcf_gcd.c](day18/q36_hcf_gcd.c) | Completed |
+| Day 19 | Q37: LCM of Two Numbers<br>Q38: Sum of Digits of a Number | [day19/q37_lcm.c](day19/q37_lcm.c)<br>[day19/q38_sum_of_digits.c](day19/q38_sum_of_digits.c) | Completed |
+| Day 20 | Q39: Product of Odd Digits<br>Q40: 1's Complement of Binary Number | [day20/q39_product_odd_digits.c](day20/q39_product_odd_digits.c)<br>[day20/q40_ones_complement.c](day20/q40_ones_complement.c) | Completed |
