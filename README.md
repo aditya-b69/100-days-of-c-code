@@ -26,3 +26,7 @@ Track my daily problem-solving progress for the 100 Days of Code challenge.
 | Day 18 | Q35: Print All Factors of a Number<br>Q36: HCF (GCD) of Two Numbers | [day18/q35_factors.c](day18/q35_factors.c)<br>[day18/q36_hcf_gcd.c](day18/q36_hcf_gcd.c) | Completed |
 | Day 19 | Q37: LCM of Two Numbers<br>Q38: Sum of Digits of a Number | [day19/q37_lcm.c](day19/q37_lcm.c)<br>[day19/q38_sum_of_digits.c](day19/q38_sum_of_digits.c) | Completed |
 | Day 20 | Q39: Product of Odd Digits<br>Q40: 1's Complement of Binary Number | [day20/q39_product_odd_digits.c](day20/q39_product_odd_digits.c)<br>[day20/q40_ones_complement.c](day20/q40_ones_complement.c) | Completed |
+| Day 21 | Q41: Swap First & Last Digit<br>Q42: Perfect Number Check | [day21/q41_swap_first_last.c](day21/q41_swap_first_last.c)<br>[day21/q42_perfect_number.c](day21/q42_perfect_number.c) | Completed |
+| Day 22 | Q43: Strong Number Check<br>Q44: Sum of Series (1 + 3/4 + 5/6 + ...) | [day22/q43_strong_number.c](day22/q43_strong_number.c)<br>[day22/q44_series_sum1.c](day22/q44_series_sum1.c) | Completed |
+| Day 23 | Q45: Sum of Series (2/3 + 4/7 + 6/11 + ...)<br>Q46: 5x5 Square Star Pattern | [day23/q45_series_sum2.c](day23/q45_series_sum2.c)<br>[day23/q46_square_pattern.c](day23/q46_square_pattern.c) | Completed |
+| Day 24 | Q47: Right-Angled Triangle Star Pattern<br>Q48: Right-Angled Triangle Number Pattern | [day24/q47_right_triangle_stars.c](day24/q47_right_triangle_stars.c)<br>[day24/q48_right_triangle_numbers.c](day24/q48_right_triangle_numbers.c) | Completed |
