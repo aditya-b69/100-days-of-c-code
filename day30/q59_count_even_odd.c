@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+
+    if (scanf("%d", &n) == 1 && n > 0) {
+        int arr[n];
+        int even_count = 0, odd_count = 0;
+
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &arr[i]);
+            if (arr[i] % 2 == 0) {
+                even_count++;
+            } else {
+                odd_count++;
+            }
+        }
+
+        printf("Even count: %d\n", even_count);
+        printf("Odd count: %d\n", odd_count);
+    }
+
+    return 0;
+}
