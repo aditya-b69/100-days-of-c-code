@@ -56,3 +56,8 @@ Track my daily problem-solving progress for the 100 Days of Code challenge.
 | Day 48 | Q95: String Rotation Check<br>Q96: Reverse Words in Sentence | [day48/q95_string_rotation.c](day48/q95_string_rotation.c)<br>[day48/q96_reverse_each_word.c](day48/q96_reverse_each_word.c) | Completed |
 | Day 49 | Q97: Initials of Name<br>Q98: Initials with Full Surname | [day49/q97_name_initials.c](day49/q97_name_initials.c)<br>[day49/q98_initials_surname.c](day49/q98_initials_surname.c) | Completed |
 | Day 50 | Q99: Date Format Conversion (dd-MMM-yyyy)<br>Q100: Print All Substrings | [day50/q99_date_format.c](day50/q99_date_format.c)<br>[day50/q100_all_substrings.c](day50/q100_all_substrings.c) | Completed |
+| Day 51 | Q101: First & Last Occurrence in Sorted Array (O(log n)) | [day51/q101_first_last_occurrence.c](day51/q101_first_last_occurrence.c) | Completed |
+| Day 52 | Q102: Ceil of an Element in Sorted Array (O(log n)) | [day52/q102_ceil_element.c](day52/q102_ceil_element.c) | Completed |
+| Day 53 | Q103: Leftmost Pivot Index of Array (O(n)) | [day53/q103_pivot_index.c](day53/q103_pivot_index.c) | Completed |
+| Day 54 | Q104: Pivot Integer from 1 to n (O(1)) | [day54/q104_pivot_integer.c](day54/q104_pivot_integer.c) | Completed |
+| Day 55 | Q105: Majority Element via Boyer-Moore (O(n)) | [day55/q105_majority_element.c](day55/q105_majority_element.c) | Completed |
